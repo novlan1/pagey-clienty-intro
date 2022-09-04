@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./pagey.js"></script>
+  <link href="./pagey-style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="inner">
+      <div id="tapId"></div>
+      <p>
+        clientX 相对于浏览器 x 轴的位置，clientY 相对于浏览器 y 轴的位置
+      </p>
+      <p>
+        screenX 相对于屏幕坐标系的水平偏移量，screenY 相对于屏幕坐标系的垂直偏移量
+      </p>
+      <p>
+        offsetX 规定了事件对象与目标节点的内填充边（padding edge）在 X 轴方向上的偏移量
+        <br />
+        offsetY 规定了事件对象与目标节点的内填充边（padding edge）在 Y 轴方向上的偏移量
+      </p>
+      <p>
+        pageX 包含了被卷进去的宽度，pageY 包含了被卷进去的高度
+      </p>
+
+      <p>
+        x 属性是 clientX 属性的别名.
+        y 属性是 clientY 属性的别称。
+      </p>
+
+      <p>
+        clientHeight 是 content 内部可见高度 + 自身 padding，但不包括 border、水平滚动条、margin 的元素的高度
+      </p>
+      <p>
+        offsetHeight 是 content 自己本身的可见高度 + 自身 padding + 自身 border + 滚动条
+      </p>
+
+      <p>
+        scrollHeight 表示实际内容的高度
+      </p>
+
+      <p>
+        scrollTop 代表在有滚动条时，滚动条向下滚动的距离也就是元素顶部被遮住部分的高度
+      </p>
+
+      <p>
+        offsetTop 表示当前元素顶部 border 外层距离最近父元素内容顶部的距离，与滚动条无关。
+      </p>
+      <p>
+        offsetParent 返回一个指向最近的（指包含层级上的最近）包含该元素的定位元素或者最近的 table,td,th,body元素
+      </p>
+
+      <p>
+        clientLeft 表示一个元素的左边框的宽度，clientTop 表示一个元素顶部边框的宽度
+      </p>
+
+
+
+
+    </div>
+  </div>
+  <div id="showPlace"></div>
+</body>
+
+</html>
