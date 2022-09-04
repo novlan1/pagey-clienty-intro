@@ -16,15 +16,15 @@ document.onmousemove = function (ev) {
   tapDom.innerHTML = `
   鼠标事件属性：
   <br>
-  clientX: ${e.clientX},clientY:${e.clientY}
+  clientX: ${e.clientX}, clientY:${e.clientY}
   </br> 
-  x: ${e.x},y:${e.y}
+  x: ${e.x}, y:${e.y}
   </br> 
-  screenX:${e.screenX},screenY:${e.screenY}
+  screenX:${e.screenX}, screenY:${e.screenY}
   </br> 
-  offsetX:${e.offsetX},offsetY:${e.offsetY}
+  offsetX:${e.offsetX}, offsetY:${e.offsetY}
   </br> 
-  pageX:${e.pageX},pageY:${e.pageY}
+  pageX:${e.pageX}, pageY:${e.pageY}
   <br>
   <br>
 
